@@ -1,0 +1,28 @@
+h1 {
+  color: red;
+}
+h3,
+h2 {
+  color: black;
+}
+th {
+  color: #666;
+  font-size: 14px;
+}
+p {
+  color: black;
+}
+
+.class1 {
+  color: rgb(2, 0, 0);
+}
+.class2 {
+  background: pink;
+}
+.class3 {
+  color: #777777;
+}
+.class4 {
+  color: white;
+  font-size: 18px;
+}
