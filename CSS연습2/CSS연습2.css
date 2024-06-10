@@ -1,0 +1,49 @@
+.LOGO {
+  margin: 20px;
+  margin-top: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 20%;
+  align-items: center;
+  border: 1px solid #e4d8d8;
+  padding-bottom: 20px;
+}
+.header a {
+  padding: 8px;
+}
+.header__center a:hover {
+  background: black;
+  color: white;
+  width: 20px;
+  height: 20%;
+}
+
+.header__center {
+  font-size: 1rem;
+  font-weight: bold;
+}
+.header__right {
+  font-size: 1rem;
+}
+.header__right a:hover {
+  background: black;
+  color: white;
+  width: 20px;
+  height: 20%;
+}
+section {
+}
+
+@media screen and (max-width: 1160px) {
+  .header {
+    display: flex;
+    flex-direction: column;
+  }
+  .header__center {
+    margin: 30px;
+  }
+}
