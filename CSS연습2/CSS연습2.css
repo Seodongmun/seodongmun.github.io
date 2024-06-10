@@ -11,6 +11,7 @@
   align-items: center;
   border: 1px solid #e4d8d8;
   padding-bottom: 20px;
+  padding-top: 20px;
 }
 .header a {
   padding: 8px;
@@ -28,6 +29,7 @@
 }
 .header__right {
   font-size: 1rem;
+  padding-bottom: 25px;
 }
 .header__right a:hover {
   background: black;
@@ -35,7 +37,9 @@
   width: 20px;
   height: 20%;
 }
-section {
+section img {
+  width: 100%;
+  height: auto;
 }
 
 @media screen and (max-width: 1160px) {
@@ -46,4 +50,10 @@ section {
   .header__center {
     margin: 30px;
   }
+  section img {
+    box-sizing: border-box;
+  }
+}
+
+@media screen and (max-width: 660px) {
 }
