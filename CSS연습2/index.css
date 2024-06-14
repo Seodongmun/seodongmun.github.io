@@ -1,3 +1,9 @@
+.toggle__menu {
+  color: honeydew;
+  font-size: 2rem;
+  padding-left: 30px;
+}
+
 .LOGO {
   margin: 20px;
 }
@@ -78,7 +84,7 @@
 /*====== (footer) ============================*/
 footer {
   width: 100%;
-  height: 500px;
+  height: 400px;
 }
 .footer-top {
   display: flex;
@@ -113,7 +119,7 @@ footer {
 }
 
 .footer-left-menu {
-  height: 400px;
+  height: 200px;
   width: 800px;
   flex-direction: column;
   text-align: center;
