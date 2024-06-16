@@ -1,7 +1,37 @@
-const toggle__menu = document.querySelector(".toggle__menu");
-const toogle__sideBar = document.querySelector(".toogle__sideBar")
+const toggleIcon = document.querySelector(".toggle__icon");
+const toggleSideBar = document.querySelector(".toggle__SideBar")
 
-function toggleSidebar() {
-  toggle__menu.classList.toggle("active");
-  toogle__sideBar.classList.toggle("active");
-}
+toggleIcon.addEventListener('click', () => {
+  toggleSideBar.classList.toggle("active");
+  toggleIcon.classList.toggle("active");
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+let imgText = document.querySelector("#RevsYourHeart")
+
+window.addEventListener('scroll', function () {
+  let scrollY__Value = window.scrollY
+  console.log("scrollY",scrollY__Value);
+  if (scrollY__Value > 550) {
+    imgText.style.animation = "disappear 1s ease-out forwards";
+  } else {
+    imgText.style.animation = "textSlide 1s ease-out"
+  }
+});
