@@ -1,18 +1,10 @@
 /*====== (active) ===========================*/
 
 @media screen and (max-width: 1450px) {
-  .img2 h2 {
-    display: none;
-  }
   #RevsYourHeart {
     display: flex;
   }
-  #img2_h2 {
-    display: flex;
-  }
-  #YZF_R1M_ABS {
-    display: flex;
-  }
+
 }
 @media screen and (max-width: 1230px) {
   .toggle__icon {
@@ -56,12 +48,7 @@
   #RevsYourHeart {
     display: none;
   }
-  #img2_h2 {
-    display: none;
-  }
-  #YZF_R1M_ABS {
-    display: none;
-  }
+
 }
 
 @media screen and (max-width: 820px) {
@@ -81,18 +68,11 @@
   .header {
     height: 200px;
   }
-  .header__center {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
+  #header__center {
+    display: none;
   }
-  .header__center a {
-    margin-top: 20px;
-  }
-  .header__center a:hover {
-    width: 153px;
-    text-align: center;
-  }
+
+
   .img1,
   .img2,
   .img3 {
@@ -105,7 +85,3 @@
   #img2_h2 {
     display: none;
   }
-  #YZF_R1M_ABS {
-    display: none;
-  }
-}

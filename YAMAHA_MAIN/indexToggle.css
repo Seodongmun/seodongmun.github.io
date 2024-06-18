@@ -7,7 +7,7 @@
 }
 .toggle__icon {
   display: block;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   padding-left: 30px;
   z-index: 1;
   color: honeydew;
@@ -32,7 +32,7 @@
 }
 
 .toggle__sideBar ul li {
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 
 .toggle__sideBar ul li a {
@@ -42,7 +42,7 @@
 }
 
 .toggle__sideBar ul li a:hover {
-  color: red;
+  color: black;
   background-color: honeydew;
 }
 

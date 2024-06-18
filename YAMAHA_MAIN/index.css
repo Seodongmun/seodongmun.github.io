@@ -17,7 +17,11 @@
   padding-left: 10px;
   padding-right: 10px;
 }
-.header__center a:hover {
+.main_dropDown {
+  display: none;
+}
+
+#header__center a:hover {
   background: black;
   color: red;
   width: 20px;
@@ -25,7 +29,7 @@
   transition: 0.3s;
 }
 
-.header__center {
+#header__center {
   font-size: 1.2rem;
   font-weight: bold;
 }
@@ -69,30 +73,6 @@
   width: 650px;
   top: 50%;
   left: 300px;
-}
-#YZF_R1M_ABS {
-  font-size: 5rem;
-  color: honeydew;
-  font-family: teko;
-  animation: textSlide 2s ease-out;
-  position: absolute;
-  width: 650px;
-  top: 130%;
-  left: 300px;
-}
-#img2_h2 {
-  font-size: 2rem;
-  color: azure;
-  font-family: teko;
-  animation: textSlide 2s ease-out;
-  position: absolute;
-  width: 650px;
-  top: 160%;
-  left: 300px;
-  background-color: rgba(0, 0, 0, 0.2);
-}
-#img_h2 p {
-  font-size: 1rem;
 }
 
 .img3 {
