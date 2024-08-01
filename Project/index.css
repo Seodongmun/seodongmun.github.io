@@ -1,0 +1,15 @@
+#header {
+  display: flex;
+  background-color: aqua;
+  width: 100%;
+  height: 100px;
+}
+
+#LOGO {
+  font-size: 3rem;
+}
+
+.menu {
+  font-size: 2rem;
+}
+
