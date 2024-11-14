@@ -1,0 +1,21 @@
+Front = java 21 , MySQL 8 , Spring Boot 3, Mybatis, JPA , QueryDSL
+Back = HTML 5 & CSS3, JavaScript(ES6) , TypeScript , React , Redux
+
+PDF 파일로 이력서 가지고있는거 추천
+
+CRUD 비중있게 다루기
+
+시연 영상 만들기
+
+https://github.com/BaekjoonHub/BaekjoonHub 백준 코딩테스트 깃헙
+
+
+- 기술면접 
+
+기본 개념 확실하게
+
+프로젝트 관련 질문 경험을 바탕으로 설명
+
+모르면 모른다고 자백하기
+
+개념설명 어려우면 프로젝트에서 경험 바탕으로 이야기해보기
